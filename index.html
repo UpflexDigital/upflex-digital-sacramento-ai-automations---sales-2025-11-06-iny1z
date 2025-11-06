@@ -3,6 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Landing Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Upflex Digital Sacramento - AI Automations & Sales. Transform your digital presence with cutting-edge AI agents, web design, and SMMA services.">
     <meta name="keywords" content="AI automation, web design, SMMA, digital marketing, Sacramento">
     <meta name="author" content="Upflex Digital">
@@ -11,6 +19,7 @@
     <meta property="og:type" content="website">
     <title>Upflex Digital Sacramento - AI Automations & Sales</title>
     <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <script>
         tailwind.config = {
             theme: {
@@ -87,25 +96,37 @@
     <!-- Navigation -->
     <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-blur-md border-b border-gray-800">
         <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
-            <div class="flex items-center space-x-2">
+            <a href="https://UpflexDigital.github.io/upflex-digital-sacramento-ai-automations---sales-2025-11-06-iny1z" class="flex items-center space-x-2 hover:opacity-80 transition-opacity duration-300">
                 <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
                     <span class="text-white font-bold text-lg">U</span>
                 </div>
                 <span class="text-xl font-bold text-white">Upflex</span>
-            </div>
+            </a>
             
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#features" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Features</a>
                 <a href="#benefits" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#testimonials" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Testimonials</a>
+                <a href="#faq" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">FAQ</a>
                 <a href="#cta" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Get Started</a>
                 <a href="mailto:info@upflexdigital.com" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Contact</a>
             </div>
             
-            <button class="md:hidden text-gray-300 hover:text-cyan-400 focus:outline-none" aria-label="Toggle menu">
-                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
-                </svg>
+            <button class="mobile-menu-button md:hidden text-gray-300 hover:text-cyan-400 focus:outline-none transition-colors duration-300" aria-label="Toggle menu">
+                <i class="fas fa-bars text-2xl"></i>
             </button>
+
+            <!-- Mobile Menu -->
+            <div class="mobile-menu hidden md:hidden absolute top-full left-0 right-0 bg-gray-800 border-b border-gray-700 z-40">
+                <div class="flex flex-col space-y-4 px-4 py-6">
+                    <a href="#features" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium py-2">Features</a>
+                    <a href="#benefits" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium py-2">Benefits</a>
+                    <a href="#testimonials" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium py-2">Testimonials</a>
+                    <a href="#faq" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium py-2">FAQ</a>
+                    <a href="#cta" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium py-2">Get Started</a>
+                    <a href="mailto:info@upflexdigital.com" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium py-2">Contact</a>
+                </div>
+            </div>
         </nav>
     </header>
 
@@ -134,14 +155,14 @@
                 </p>
                 
                 <p class="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
-                    Transform your business with cutting-edge AI solutions, stunning web design, and powerful social media marketing automation.
+                    Revolutionize your business with cutting-edge AI solutions that automate customer interactions, stunning web design that converts visitors into customers, and powerful social media marketing automation that scales your reach exponentially.
                 </p>
                 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-slide-up">
-                    <a href="https://upflexdigital.com" class="btn-primary px-8 py-4 rounded-lg font-bold text-lg text-white inline-block hover-glow focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900">
+                    <a href="https://upflexdigital.com" class="btn-primary px-8 py-4 rounded-lg font-bold text-lg text-white inline-block hover-glow focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 transform transition-all duration-300 hover:scale-105">
                         Start Your Transformation
                     </a>
-                    <button class="px-8 py-4 rounded-lg font-bold text-lg text-cyan-400 border-2 border-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900">
+                    <button class="px-8 py-4 rounded-lg font-bold text-lg text-cyan-400 border-2 border-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 transform hover:scale-105">
                         Learn More
                     </button>
                 </div>
@@ -163,19 +184,24 @@
 
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
                 <!-- AI Agents Card -->
-                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-cyan-400 transition-all duration-300">
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-cyan-400 transition-all duration-300 transform hover:scale-105">
                     <div class="mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-xl flex items-center justify-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-xl flex items-center justify-center mb-4 transform transition-transform duration-300 hover:scale-110">
                             <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                                 <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v4h8v-4zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
                             </svg>
                         </div>
                     </div>
                     <h3 class="text-2xl font-bold mb-3 text-white">AI Agents</h3>
-                    <p class="text-gray-300 leading-relaxed">
-                        Intelligent automation that works 24/7 to handle customer interactions, lead qualification, and business operations with precision.
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        Intelligent automation that works 24/7 to handle customer interactions, lead qualification, appointment scheduling, and business operations with precision. Our AI agents learn from every interaction to continuously improve performance and customer satisfaction.
                     </p>
-                    <div class="mt-6 flex items-center text-cyan-400 font-semibold hover:text-cyan-300 transition-colors cursor-pointer">
+                    <ul class="text-gray-300 text-sm space-y-2 mb-6">
+                        <li class="flex items-center"><span class="text-cyan-400 mr-2">✓</span> 24/7 availability</li>
+                        <li class="flex items-center"><span class="text-cyan-400 mr-2">✓</span> Lead qualification</li>
+                        <li class="flex items-center"><span class="text-cyan-400 mr-2">✓</span> Customer support automation</li>
+                    </ul>
+                    <div class="flex items-center text-cyan-400 font-semibold hover:text-cyan-300 transition-colors cursor-pointer transform hover:scale-105 duration-300">
                         Learn More
                         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -184,19 +210,24 @@
                 </div>
 
                 <!-- Web Design Card -->
-                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-purple-400 transition-all duration-300">
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-purple-400 transition-all duration-300 transform hover:scale-105">
                     <div class="mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center mb-4 transform transition-transform duration-300 hover:scale-110">
                             <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                                 <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
                             </svg>
                         </div>
                     </div>
                     <h3 class="text-2xl font-bold mb-3 text-white">Web Design</h3>
-                    <p class="text-gray-300 leading-relaxed">
-                        Stunning, conversion-focused websites that captivate your audience and drive results. Modern design meets strategic functionality.
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        Stunning, conversion-focused websites that captivate your audience and drive measurable results. Our designs combine modern aesthetics with strategic functionality to maximize user engagement and sales opportunities.
                     </p>
-                    <div class="mt-6 flex items-center text-purple-400 font-semibold hover:text-purple-300 transition-colors cursor-pointer">
+                    <ul class="text-gray-300 text-sm space-y-2 mb-6">
+                        <li class="flex items-center"><span class="text-purple-400 mr-2">✓</span> Mobile responsive</li>
+                        <li class="flex items-center"><span class="text-purple-400 mr-2">✓</span> SEO optimized</li>
+                        <li class="flex items-center"><span class="text-purple-400 mr-2">✓</span> High conversion rates</li>
+                    </ul>
+                    <div class="flex items-center text-purple-400 font-semibold hover:text-purple-300 transition-colors cursor-pointer transform hover:scale-105 duration-300">
                         Learn More
                         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -205,19 +236,24 @@
                 </div>
 
                 <!-- SMMA Card -->
-                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-pink-400 transition-all duration-300">
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-pink-400 transition-all duration-300 transform hover:scale-105">
                     <div class="mb-6">
-                        <div class="w-16 h-16 bg-gradient-to-br from-pink-400 to-red-500 rounded-xl flex items-center justify-center mb-4">
+                        <div class="w-16 h-16 bg-gradient-to-br from-pink-400 to-red-500 rounded-xl flex items-center justify-center mb-4 transform transition-transform duration-300 hover:scale-110">
                             <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
                                 <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path>
                             </svg>
                         </div>
                     </div>
                     <h3 class="text-2xl font-bold mb-3 text-white">SMMA</h3>
-                    <p class="text-gray-300 leading-relaxed">
-                        Social Media Marketing Automation that scales your reach, engages your audience, and generates qualified leads on autopilot.
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        Social Media Marketing Automation that scales your reach, engages your audience authentically, and generates qualified leads on autopilot. Leverage the power of multiple platforms with one integrated system.
                     </p>
-                    <div class="mt-6 flex items-center text-pink-400 font-semibold hover:text-pink-300 transition-colors cursor-pointer">
+                    <ul class="text-gray-300 text-sm space-y-2 mb-6">
+                        <li class="flex items-center"><span class="text-pink-400 mr-2">✓</span> Multi-platform management</li>
+                        <li class="flex items-center"><span class="text-pink-400 mr-2">✓</span> Content scheduling</li>
+                        <li class="flex items-center"><span class="text-pink-400 mr-2">✓</span> Lead generation</li>
+                    </ul>
+                    <div class="flex items-center text-pink-400 font-semibold hover:text-pink-300 transition-colors cursor-pointer transform hover:scale-105 duration-300">
                         Learn More
                         <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                             <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
@@ -250,9 +286,9 @@
                             </svg>
                         </div>
                     </div>
-                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors">Time</h3>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors">Save Valuable Time</h3>
                     <p class="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                        Save countless hours with intelligent automation that handles repetitive tasks, letting you focus on strategic growth and core business activities.
+                        Save countless hours with intelligent automation that handles repetitive tasks 24/7, letting you focus on strategic growth and core business activities. Our clients report saving 15-20 hours per week on average.
                     </p>
                 </div>
 
@@ -265,9 +301,9 @@
                             </svg>
                         </div>
                     </div>
-                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-purple-400 transition-colors">Back to Business</h3>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-purple-400 transition-colors">Focus on Growth</h3>
                     <p class="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                        Redirect your energy where it matters most. Our solutions handle the heavy lifting so you can concentrate on what makes your business unique.
+                        Redirect your energy where it matters most. Our solutions handle the heavy lifting so you can concentrate on what makes your business unique and drives real revenue growth.
                     </p>
                 </div>
 
@@ -280,9 +316,36 @@
                             </svg>
                         </div>
                     </div>
-                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-pink-400 transition-colors">Affordable Solutions</h3>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-pink-400 transition-colors">Affordable Excellence</h3>
                     <p class="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
-                        Enterprise-level technology at accessible prices. Get premium AI solutions and digital services without breaking your budget.
+                        Enterprise-level technology at accessible prices. Get premium AI solutions and digital services without breaking your budget. Flexible pricing models that scale with your business.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us Section -->
+    <section id="about" class="py-24 bg-gray-800 border-t border-gray-700">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4">
+                    <span class="gradient-text">About Upflex Digital</span>
+                </h2>
+            </div>
+
+            <div class="space-y-8">
+                <div class="bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-cyan-400 transition-all duration-300 transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4 text-cyan-400">Our Story</h3>
+                    <p class="text-gray-300 leading-relaxed mb-4">
+                        Founded in 2023, Upflex Digital emerged from a vision to democratize access to cutting-edge AI technology and digital marketing expertise. Our founders recognized that Sacramento's thriving business community deserved world-class solutions without the enterprise price tag. What started as a small team of passionate developers and digital strategists has grown into a trusted partner for hundreds of businesses across the region. We've helped startups scale rapidly and established companies modernize their operations through intelligent automation and data-driven marketing strategies.
+                    </p>
+                </div>
+
+                <div class="bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-purple-400 transition-all duration-300 transform hover:scale-105">
+                    <h3 class="text-2xl font-bold mb-4 text-purple-400">Our Mission & Values</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Our mission is to empower Sacramento businesses to compete globally through innovative AI solutions and strategic digital marketing. We believe in transparency, continuous learning, and putting our clients' success first. We're committed to staying at the forefront of technology, ensuring our clients always have access to the latest tools and strategies. Our core values—innovation, integrity, and impact—guide every decision we make and every solution we deliver.
                     </p>
                 </div>
             </div>
@@ -290,7 +353,7 @@
     </section>
 
     <!-- How It Works Section -->
-    <section class="py-24 bg-gray-800 border-t border-gray-700">
+    <section class="py-24 bg-gray-900 border-t border-gray-700">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4">
@@ -303,57 +366,153 @@
 
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
                 <!-- Step 1 -->
-                <div class="relative">
+                <div class="relative group">
                     <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg">
+                        <div class="w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                             1
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 text-center">Consultation</h3>
-                        <p class="text-gray-400 text-center leading-relaxed">
-                            We analyze your business needs and goals
+                        <h3 class="text-xl font-bold text-white mb-3 text-center group-hover:text-cyan-400 transition-colors">Consultation</h3>
+                        <p class="text-gray-400 text-center leading-relaxed group-hover:text-gray-300 transition-colors">
+                            We analyze your business needs, goals, and current challenges
                         </p>
                     </div>
                     <div class="hidden md:block absolute top-8 left-1/2 w-full h-1 bg-gradient-to-r from-cyan-400 to-transparent -z-10"></div>
                 </div>
 
                 <!-- Step 2 -->
-                <div class="relative">
+                <div class="relative group">
                     <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                             2
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 text-center">Strategy</h3>
-                        <p class="text-gray-400 text-center leading-relaxed">
-                            We develop a customized solution plan
+                        <h3 class="text-xl font-bold text-white mb-3 text-center group-hover:text-purple-400 transition-colors">Strategy</h3>
+                        <p class="text-gray-400 text-center leading-relaxed group-hover:text-gray-300 transition-colors">
+                            We develop a customized solution plan tailored to your needs
                         </p>
                     </div>
                     <div class="hidden md:block absolute top-8 left-1/2 w-full h-1 bg-gradient-to-r from-purple-400 to-transparent -z-10"></div>
                 </div>
 
                 <!-- Step 3 -->
-                <div class="relative">
+                <div class="relative group">
                     <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-gradient-to-br from-pink-400 to-red-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg">
+                        <div class="w-16 h-16 bg-gradient-to-br from-pink-400 to-red-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                             3
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 text-center">Implementation</h3>
-                        <p class="text-gray-400 text-center leading-relaxed">
-                            We deploy and configure your solution
+                        <h3 class="text-xl font-bold text-white mb-3 text-center group-hover:text-pink-400 transition-colors">Implementation</h3>
+                        <p class="text-gray-400 text-center leading-relaxed group-hover:text-gray-300 transition-colors">
+                            We deploy and configure your solution with precision
                         </p>
                     </div>
                     <div class="hidden md:block absolute top-8 left-1/2 w-full h-1 bg-gradient-to-r from-pink-400 to-transparent -z-10"></div>
                 </div>
 
                 <!-- Step 4 -->
-                <div class="relative">
+                <div class="relative group">
                     <div class="flex flex-col items-center">
-                        <div class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg">
+                        <div class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg group-hover:scale-110 transition-transform duration-300">
                             4
                         </div>
-                        <h3 class="text-xl font-bold text-white mb-3 text-center">Success</h3>
-                        <p class="text-gray-400 text-center leading-relaxed">
-                            We monitor and optimize for results
+                        <h3 class="text-xl font-bold text-white mb-3 text-center group-hover:text-yellow-400 transition-colors">Success</h3>
+                        <p class="text-gray-400 text-center leading-relaxed group-hover:text-gray-300 transition-colors">
+                            We monitor and optimize for continuous results
                         </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="testimonials" class="py-24 bg-gray-800 border-t border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4">
+                    <span class="gradient-text">What Our Clients Say</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Real results from real businesses
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-cyan-400 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "Upflex Digital transformed our customer service operations. Their AI agents now handle 80% of our initial inquiries, freeing up our team to focus on complex issues. We've seen a 40% improvement in response times and customer satisfaction scores have never been higher."
+                    </p>
+                    <div class="border-t border-gray-600 pt-4">
+                        <p class="text-white font-bold">Sarah Chen</p>
+                        <p class="text-cyan-400 text-sm">CEO, Tech Solutions Inc.</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 2 -->
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-purple-400 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "The web design they created for us is absolutely stunning and converts like crazy. Within 3 months of launch, our online sales increased by 250%. Their team was professional, responsive, and truly understood our brand vision."
+                    </p>
+                    <div class="border-t border-gray-600 pt-4">
+                        <p class="text-white font-bold">Marcus Thompson</p>
+                        <p class="text-purple-400 text-sm">Founder, Premium Retail Co.</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 3 -->
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-pink-400 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "Their SMMA services have been a game-changer for our business. We went from struggling to get engagement on social media to having thousands of qualified leads per month. The ROI has been incredible."
+                    </p>
+                    <div class="border-t border-gray-600 pt-4">
+                        <p class="text-white font-bold">Jessica Martinez</p>
+                        <p class="text-pink-400 text-sm">Marketing Director, Growth Agency</p>
+                    </div>
+                </div>
+
+                <!-- Testimonial 4 -->
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-yellow-400 transition-all duration-300">
+                    <div class="flex items-center mb-4">
+                        <div class="flex text-yellow-400">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    <p class="text-gray-300 mb-6 leading-relaxed">
+                        "Working with Upflex Digital was the best decision we made this year. Their comprehensive approach combining AI, web design, and marketing automation gave us a complete digital transformation. Highly recommended!"
+                    </p>
+                    <div class="border-t border-gray-600 pt-4">
+                        <p class="text-white font-bold">David Rodriguez</p>
+                        <p class="text-yellow-400 text-sm">Owner, Local Services Business</p>
                     </div>
                 </div>
             </div>
@@ -373,14 +532,14 @@
             </h2>
             
             <p class="text-xl text-gray-300 mb-8 leading-relaxed">
-                Join hundreds of Sacramento businesses already experiencing exponential growth with Upflex Digital solutions.
+                Join hundreds of Sacramento businesses already experiencing exponential growth with Upflex Digital solutions. Let's take your business to the next level.
             </p>
 
             <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a href="https://upflexdigital.com" class="btn-primary px-10 py-5 rounded-lg font-bold text-lg text-white inline-block hover-glow focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900">
+                <a href="https://upflexdigital.com" class="btn-primary px-10 py-5 rounded-lg font-bold text-lg text-white inline-block hover-glow focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 transform transition-all duration-300 hover:scale-105">
                     Start Your Free Consultation
                 </a>
-                <a href="mailto:info@upflexdigital.com" class="px-10 py-5 rounded-lg font-bold text-lg text-cyan-400 border-2 border-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 inline-block">
+                <a href="mailto:info@upflexdigital.com" class="px-10 py-5 rounded-lg font-bold text-lg text-cyan-400 border-2 border-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 inline-block transform hover:scale-105">
                     Contact Us
                 </a>
             </div>
@@ -388,7 +547,7 @@
     </section>
 
     <!-- FAQ Section -->
-    <section class="py-24 bg-gray-800 border-t border-gray-700">
+    <section id="faq" class="py-24 bg-gray-900 border-t border-gray-700">
         <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="text-center mb-16">
                 <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4">
@@ -401,7 +560,7 @@
 
             <div class="space-y-6">
                 <!-- FAQ Item 1 -->
-                <details class="group bg-gray-700 rounded-lg overflow-hidden border border-gray-600 hover:border-cyan-400 transition-colors duration-300">
+                <details class="group bg-gray-800 rounded-lg overflow-hidden border border-gray-600 hover:border-cyan-400 transition-all duration-300">
                     <summary class="flex items-center justify-between cursor-pointer p-6 font-bold text-lg text-white hover:text-cyan-400 transition-colors duration-300">
                         What is AI automation and how can it help my business?
                         <span class="transform group-open:rotate-180 transition-transform duration-300">
@@ -411,13 +570,168 @@
                         </span>
                     </summary>
                     <div class="px-6 pb-6 text-gray-300 leading-relaxed border-t border-gray-600">
-                        AI automation uses intelligent systems to handle repetitive tasks, customer interactions, and business processes 24/7. This saves time, reduces errors, and allows your team to focus on strategic growth. Our AI agents can qualify leads, answer customer questions, schedule appointments, and much more.
+                        AI automation uses intelligent systems to handle repetitive tasks, customer interactions, and business processes 24/7. This saves time, reduces errors, and allows your team to focus on strategic growth. Our AI agents can qualify leads, answer customer questions, schedule appointments, handle billing inquiries, and much more. Businesses typically see a 60-80% reduction in manual workload and improved customer satisfaction within the first month.
                     </div>
                 </details>
 
                 <!-- FAQ Item 2 -->
-                <details class="group bg-gray-700 rounded-lg overflow-hidden border border-gray-600 hover:border-purple-400 transition-colors duration-300">
+                <details class="group bg-gray-800 rounded-lg overflow-hidden border border-gray-600 hover:border-purple-400 transition-all duration-300">
                     <summary class="flex items-center justify-between cursor-pointer p-6 font-bold text-lg text-white hover:text-purple-400 transition-colors duration-300">
-                        How long does it take to see results?
+                        How long does it take to see results from your services?
                         <span class="transform group-open:rotate-180 transition-transform duration-300">
-                            <svg class="w-6 h-6" fill="none" stroke="
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-300 leading-relaxed border-t border-gray-600">
+                        Timeline varies by service. For AI agents, most clients see immediate improvements in response times and lead handling within 1-2 weeks of deployment. Web design projects typically take 4-8 weeks depending on complexity, with results visible immediately upon launch. SMMA campaigns begin generating engagement and leads within 2-4 weeks as we optimize based on initial data. We provide detailed analytics and progress reports so you can track results in real-time.
+                    </div>
+                </details>
+
+                <!-- FAQ Item 3 -->
+                <details class="group bg-gray-800 rounded-lg overflow-hidden border border-gray-600 hover:border-pink-400 transition-all duration-300">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 font-bold text-lg text-white hover:text-pink-400 transition-colors duration-300">
+                        What industries do you specialize in?
+                        <span class="transform group-open:rotate-180 transition-transform duration-300">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-300 leading-relaxed border-t border-gray-600">
+                        We work with businesses across all industries including retail, healthcare, professional services, real estate, hospitality, e-commerce, and more. Our solutions are highly customizable, so whether you're a startup, small business, or established enterprise, we can tailor our services to your specific needs. We've successfully helped over 300 Sacramento businesses transform their digital presence regardless of industry vertical.
+                    </div>
+                </details>
+
+                <!-- FAQ Item 4 -->
+                <details class="group bg-gray-800 rounded-lg overflow-hidden border border-gray-600 hover:border-yellow-400 transition-all duration-300">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 font-bold text-lg text-white hover:text-yellow-400 transition-colors duration-300">
+                        How much do your services cost?
+                        <span class="transform group-open:rotate-180 transition-transform duration-300">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-300 leading-relaxed border-t border-gray-600">
+                        Our pricing is flexible and scalable based on your needs. We offer packages starting at affordable entry-level prices and scaling up for enterprise solutions. Most businesses invest between $500-$5,000 per month depending on the services and scope. We provide transparent pricing with no hidden fees, and every package includes regular reporting and optimization. Schedule a free consultation to get a custom quote tailored to your specific requirements.
+                    </div>
+                </details>
+
+                <!-- FAQ Item 5 -->
+                <details class="group bg-gray-800 rounded-lg overflow-hidden border border-gray-600 hover:border-cyan-400 transition-all duration-300">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 font-bold text-lg text-white hover:text-cyan-400 transition-colors duration-300">
+                        Do you provide ongoing support and optimization?
+                        <span class="transform group-open:rotate-180 transition-transform duration-300">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-300 leading-relaxed border-t border-gray-600">
+                        Absolutely! Ongoing support and optimization are core to our service philosophy. All our packages include regular monitoring, performance analysis, and continuous optimization to ensure you're getting maximum ROI. We provide dedicated account managers, monthly strategy sessions, and real-time technical support. Our team proactively identifies improvement opportunities and implements updates to keep your systems running at peak performance.
+                    </div>
+                </details>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-900 border-t border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+                <!-- Brand -->
+                <div>
+                    <div class="flex items-center space-x-2 mb-4">
+                        <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                            <span class="text-white font-bold text-lg">U</span>
+                        </div>
+                        <span class="text-xl font-bold text-white">Upflex</span>
+                    </div>
+                    <p class="text-gray-400 leading-relaxed">
+                        Transforming Sacramento businesses with AI automation and digital excellence.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Quick Links</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#features" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">Features</a></li>
+                        <li><a href="#benefits" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">Benefits</a></li>
+                        <li><a href="#testimonials" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">Testimonials</a></li>
+                        <li><a href="#faq" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">FAQ</a></li>
+                    </ul>
+                </div>
+
+                <!-- Services -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Services</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">AI Agents</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">Web Design</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">SMMA</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">Consulting</a></li>
+                    </ul>
+                </div>
+
+                <!-- Contact -->
+                <div>
+                    <h4 class="text-white font-bold mb-4">Contact</h4>
+                    <ul class="space-y-2">
+                        <li><a href="mailto:info@upflexdigital.com" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">info@upflexdigital.com</a></li>
+                        <li><a href="tel:+1234567890" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300">+1 (234) 567-8900</a></li>
+                        <li class="text-gray-400">Sacramento, CA</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Divider -->
+            <div class="border-t border-gray-700 py-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <p class="text-gray-400 mb-4 md:mb-0">
+                        &copy; 2024 Upflex Digital. All rights reserved.
+                    </p>
+                    <div class="flex space-x-6">
+                        <a href="https://UpflexDigital.github.io/upflex-digital-sacramento-ai-automations---sales-2025-11-06-iny1z/privacy.html" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300 font-medium">Privacy Policy</a>
+                        <a href="https://UpflexDigital.github.io/upflex-digital-sacramento-ai-automations---sales-2025-11-06-iny1z/terms.html" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300 font-medium">Terms of Service</a>
+                        <a href="https://UpflexDigital.github.io/upflex-digital-sacramento-ai-automations---sales-2025-11-06-iny1z/blog.html" class="text-gray-400 hover:text-cyan-400 transition-colors duration-300 font-medium">Blog</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const mobileMenuButton = document.querySelector('header nav .mobile-menu-button');
+            const mobileMenu = document.querySelector('header nav .mobile-menu');
+            
+            if (mobileMenuButton && mobileMenu) {
+                mobileMenuButton.addEventListener('click', () => {
+                    mobileMenu.classList.toggle('hidden');
+                    const icon = mobileMenuButton.querySelector('i');
+                    if (icon) {
+                        icon.classList.toggle('fa-bars');
+                        icon.classList.toggle('fa-times');
+                    }
+                });
+
+                const mobileMenuLinks = mobileMenu.querySelectorAll('a');
+                mobileMenuLinks.forEach(link => {
+                    link.addEventListener('click', () => {
+                        mobileMenu.classList.add('hidden');
+                        const icon = mobileMenuButton.querySelector('i');
+                        if (icon) {
+                            icon.classList.remove('fa-times');
+                            icon.classList.add('fa-bars');
+                        }
+                    });
+                });
+            }
+        });
+    </script>
+</body>
+</body>
+</html>
