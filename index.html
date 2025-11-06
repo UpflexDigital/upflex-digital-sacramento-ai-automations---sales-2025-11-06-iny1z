@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Upflex Digital Sacramento - AI Automations & Sales. Transform your digital presence with cutting-edge AI agents, web design, and SMMA services.">
+    <meta name="keywords" content="AI automation, web design, SMMA, digital marketing, Sacramento">
+    <meta name="author" content="Upflex Digital">
+    <meta property="og:title" content="Upflex Digital Sacramento - AI Automations & Sales">
+    <meta property="og:description" content="Upflex Your Digital Presence with AI-powered solutions">
+    <meta property="og:type" content="website">
+    <title>Upflex Digital Sacramento - AI Automations & Sales</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: '#00D4FF',
+                        secondary: '#FF006E',
+                        accent: '#8338EC',
+                    },
+                    animation: {
+                        'fade-in': 'fadeIn 0.5s ease-in',
+                        'slide-up': 'slideUp 0.5s ease-out',
+                        'pulse-glow': 'pulseGlow 2s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        fadeIn: {
+                            '0%': { opacity: '0' },
+                            '100%': { opacity: '1' },
+                        },
+                        slideUp: {
+                            '0%': { transform: 'translateY(20px)', opacity: '0' },
+                            '100%': { transform: 'translateY(0)', opacity: '1' },
+                        },
+                        pulseGlow: {
+                            '0%, 100%': { boxShadow: '0 0 20px rgba(0, 212, 255, 0.5)' },
+                            '50%': { boxShadow: '0 0 40px rgba(0, 212, 255, 0.8)' },
+                        },
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        * {
+            scroll-behavior: smooth;
+        }
+        
+        .gradient-text {
+            background: linear-gradient(135deg, #00D4FF 0%, #FF006E 50%, #8338EC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        
+        .hover-glow:hover {
+            box-shadow: 0 0 30px rgba(0, 212, 255, 0.4);
+        }
+        
+        .btn-primary {
+            background: linear-gradient(135deg, #00D4FF 0%, #8338EC 100%);
+            transition: all 0.3s ease;
+        }
+        
+        .btn-primary:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 40px rgba(0, 212, 255, 0.3);
+        }
+        
+        .card-hover {
+            transition: all 0.3s ease;
+        }
+        
+        .card-hover:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 20px 50px rgba(0, 212, 255, 0.2);
+        }
+        
+        .feature-icon {
+            font-size: 3rem;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white">
+    <!-- Navigation -->
+    <header class="sticky top-0 z-50 bg-gray-900 bg-opacity-95 backdrop-blur-md border-b border-gray-800">
+        <nav class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <div class="w-10 h-10 bg-gradient-to-r from-blue-500 to-purple-600 rounded-lg flex items-center justify-center">
+                    <span class="text-white font-bold text-lg">U</span>
+                </div>
+                <span class="text-xl font-bold text-white">Upflex</span>
+            </div>
+            
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#features" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Features</a>
+                <a href="#benefits" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Benefits</a>
+                <a href="#cta" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Get Started</a>
+                <a href="mailto:info@upflexdigital.com" class="text-gray-300 hover:text-cyan-400 transition-colors duration-300 font-medium">Contact</a>
+            </div>
+            
+            <button class="md:hidden text-gray-300 hover:text-cyan-400 focus:outline-none" aria-label="Toggle menu">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                </svg>
+            </button>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-900 overflow-hidden pt-20 pb-20">
+        <!-- Background Pattern -->
+        <div class="absolute inset-0 opacity-10">
+            <div class="absolute top-0 left-1/4 w-96 h-96 bg-cyan-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
+            <div class="absolute top-1/2 right-1/4 w-96 h-96 bg-purple-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
+            <div class="absolute bottom-0 left-1/2 w-96 h-96 bg-pink-500 rounded-full mix-blend-multiply filter blur-3xl animate-pulse"></div>
+        </div>
+
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-full flex flex-col justify-center">
+            <div class="text-center space-y-8 animate-fade-in">
+                <h1 class="text-5xl sm:text-6xl lg:text-7xl font-black tracking-tight leading-tight">
+                    <span class="block text-white">Upflex Digital</span>
+                    <span class="block gradient-text mt-2">Sacramento</span>
+                </h1>
+                
+                <p class="text-2xl sm:text-3xl lg:text-4xl font-bold text-cyan-400 animate-slide-up">
+                    AI Automations & Sales
+                </p>
+                
+                <p class="text-xl sm:text-2xl text-gray-300 max-w-3xl mx-auto leading-relaxed animate-slide-up">
+                    Upflex Your Digital Presence
+                </p>
+                
+                <p class="text-lg text-gray-400 max-w-2xl mx-auto leading-relaxed">
+                    Transform your business with cutting-edge AI solutions, stunning web design, and powerful social media marketing automation.
+                </p>
+                
+                <div class="flex flex-col sm:flex-row gap-4 justify-center pt-8 animate-slide-up">
+                    <a href="https://upflexdigital.com" class="btn-primary px-8 py-4 rounded-lg font-bold text-lg text-white inline-block hover-glow focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900">
+                        Start Your Transformation
+                    </a>
+                    <button class="px-8 py-4 rounded-lg font-bold text-lg text-cyan-400 border-2 border-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900">
+                        Learn More
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="py-24 bg-gray-800 border-t border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4">
+                    <span class="gradient-text">Powerful Features</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Everything you need to dominate your industry
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- AI Agents Card -->
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-cyan-400 transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-xl flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v4h8v-4zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white">AI Agents</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Intelligent automation that works 24/7 to handle customer interactions, lead qualification, and business operations with precision.
+                    </p>
+                    <div class="mt-6 flex items-center text-cyan-400 font-semibold hover:text-cyan-300 transition-colors cursor-pointer">
+                        Learn More
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- Web Design Card -->
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-purple-400 transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-xl flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M3 4a1 1 0 011-1h12a1 1 0 011 1v2a1 1 0 01-1 1H4a1 1 0 01-1-1V4zM3 10a1 1 0 011-1h6a1 1 0 011 1v6a1 1 0 01-1 1H4a1 1 0 01-1-1v-6zM14 9a1 1 0 00-1 1v6a1 1 0 001 1h2a1 1 0 001-1v-6a1 1 0 00-1-1h-2z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white">Web Design</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Stunning, conversion-focused websites that captivate your audience and drive results. Modern design meets strategic functionality.
+                    </p>
+                    <div class="mt-6 flex items-center text-purple-400 font-semibold hover:text-purple-300 transition-colors cursor-pointer">
+                        Learn More
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </div>
+
+                <!-- SMMA Card -->
+                <div class="card-hover bg-gradient-to-br from-gray-700 to-gray-800 rounded-2xl p-8 border border-gray-600 hover:border-pink-400 transition-all duration-300">
+                    <div class="mb-6">
+                        <div class="w-16 h-16 bg-gradient-to-br from-pink-400 to-red-500 rounded-xl flex items-center justify-center mb-4">
+                            <svg class="w-8 h-8 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M2 11a1 1 0 011-1h2a1 1 0 011 1v5a1 1 0 01-1 1H3a1 1 0 01-1-1v-5zM8 7a1 1 0 011-1h2a1 1 0 011 1v9a1 1 0 01-1 1H9a1 1 0 01-1-1V7zM14 4a1 1 0 011-1h2a1 1 0 011 1v12a1 1 0 01-1 1h-2a1 1 0 01-1-1V4z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white">SMMA</h3>
+                    <p class="text-gray-300 leading-relaxed">
+                        Social Media Marketing Automation that scales your reach, engages your audience, and generates qualified leads on autopilot.
+                    </p>
+                    <div class="mt-6 flex items-center text-pink-400 font-semibold hover:text-pink-300 transition-colors cursor-pointer">
+                        Learn More
+                        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7"></path>
+                        </svg>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section id="benefits" class="py-24 bg-gray-900 border-t border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4">
+                    <span class="gradient-text">Why Choose Upflex</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Real benefits that transform your business
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+                <!-- Time Benefit -->
+                <div class="group">
+                    <div class="relative mb-8">
+                        <div class="w-20 h-20 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm1-12a1 1 0 10-2 0v4a1 1 0 00-.293.707l-.707.707a1 1 0 101.414 1.414L9 9.414V6z" clip-rule="evenodd"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-cyan-400 transition-colors">Time</h3>
+                    <p class="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                        Save countless hours with intelligent automation that handles repetitive tasks, letting you focus on strategic growth and core business activities.
+                    </p>
+                </div>
+
+                <!-- Back to Business Benefit -->
+                <div class="group">
+                    <div class="relative mb-8">
+                        <div class="w-20 h-20 bg-gradient-to-br from-purple-400 to-pink-500 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M13 6a3 3 0 11-6 0 3 3 0 016 0zM18 8a2 2 0 11-4 0 2 2 0 014 0zM14 15a4 4 0 00-8 0v4h8v-4zM6 8a2 2 0 11-4 0 2 2 0 014 0zM16 18v-3a5.972 5.972 0 00-.75-2.906A3.005 3.005 0 0119 15v3h-3zM4.75 12.094A5.973 5.973 0 004 15v3H1v-3a3 3 0 013.75-2.906z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-purple-400 transition-colors">Back to Business</h3>
+                    <p class="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                        Redirect your energy where it matters most. Our solutions handle the heavy lifting so you can concentrate on what makes your business unique.
+                    </p>
+                </div>
+
+                <!-- Affordability Benefit -->
+                <div class="group">
+                    <div class="relative mb-8">
+                        <div class="w-20 h-20 bg-gradient-to-br from-pink-400 to-red-500 rounded-2xl flex items-center justify-center group-hover:scale-110 transition-transform duration-300 shadow-lg">
+                            <svg class="w-10 h-10 text-white" fill="currentColor" viewBox="0 0 20 20">
+                                <path d="M8.16 5.314l4.897-1.596A1 1 0 0115 4.97v4.396l5.768-1.281a1 1 0 011.202 1.202l-5.933 26.86a1 1 0 01-1.196.725l-1.323-.661a1 1 0 00-1.898.559v2.798a1 1 0 11-2 0v-2.798a1 1 0 00-1.898-.559l-1.323.66a1 1 0 01-1.196-.724L.458 10.487a1 1 0 011.202-1.202L7 10.566V6.17a1 1 0 00-.84-1.856z"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <h3 class="text-2xl font-bold mb-3 text-white group-hover:text-pink-400 transition-colors">Affordable Solutions</h3>
+                    <p class="text-gray-400 leading-relaxed group-hover:text-gray-300 transition-colors">
+                        Enterprise-level technology at accessible prices. Get premium AI solutions and digital services without breaking your budget.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How It Works Section -->
+    <section class="py-24 bg-gray-800 border-t border-gray-700">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4">
+                    <span class="gradient-text">How It Works</span>
+                </h2>
+                <p class="text-xl text-gray-300 max-w-2xl mx-auto">
+                    Simple steps to transform your business
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <!-- Step 1 -->
+                <div class="relative">
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-cyan-400 to-blue-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg">
+                            1
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 text-center">Consultation</h3>
+                        <p class="text-gray-400 text-center leading-relaxed">
+                            We analyze your business needs and goals
+                        </p>
+                    </div>
+                    <div class="hidden md:block absolute top-8 left-1/2 w-full h-1 bg-gradient-to-r from-cyan-400 to-transparent -z-10"></div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="relative">
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-purple-400 to-pink-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg">
+                            2
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 text-center">Strategy</h3>
+                        <p class="text-gray-400 text-center leading-relaxed">
+                            We develop a customized solution plan
+                        </p>
+                    </div>
+                    <div class="hidden md:block absolute top-8 left-1/2 w-full h-1 bg-gradient-to-r from-purple-400 to-transparent -z-10"></div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="relative">
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-pink-400 to-red-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg">
+                            3
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 text-center">Implementation</h3>
+                        <p class="text-gray-400 text-center leading-relaxed">
+                            We deploy and configure your solution
+                        </p>
+                    </div>
+                    <div class="hidden md:block absolute top-8 left-1/2 w-full h-1 bg-gradient-to-r from-pink-400 to-transparent -z-10"></div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="relative">
+                    <div class="flex flex-col items-center">
+                        <div class="w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full flex items-center justify-center text-2xl font-bold text-white mb-6 shadow-lg">
+                            4
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-3 text-center">Success</h3>
+                        <p class="text-gray-400 text-center leading-relaxed">
+                            We monitor and optimize for results
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="cta" class="relative py-24 overflow-hidden">
+        <div class="absolute inset-0 z-0">
+            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?w=1200&h=600&fit=crop" alt="Digital transformation background" class="w-full h-full object-cover opacity-20">
+            <div class="absolute inset-0 bg-gradient-to-r from-gray-900 via-gray-900 to-gray-900"></div>
+        </div>
+
+        <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-6">
+                <span class="gradient-text">Ready to Transform?</span>
+            </h2>
+            
+            <p class="text-xl text-gray-300 mb-8 leading-relaxed">
+                Join hundreds of Sacramento businesses already experiencing exponential growth with Upflex Digital solutions.
+            </p>
+
+            <div class="flex flex-col sm:flex-row gap-4 justify-center">
+                <a href="https://upflexdigital.com" class="btn-primary px-10 py-5 rounded-lg font-bold text-lg text-white inline-block hover-glow focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900">
+                    Start Your Free Consultation
+                </a>
+                <a href="mailto:info@upflexdigital.com" class="px-10 py-5 rounded-lg font-bold text-lg text-cyan-400 border-2 border-cyan-400 hover:bg-cyan-400 hover:text-gray-900 transition-all duration-300 focus:outline-none focus:ring-2 focus:ring-cyan-400 focus:ring-offset-2 focus:ring-offset-gray-900 inline-block">
+                    Contact Us
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-24 bg-gray-800 border-t border-gray-700">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl sm:text-5xl lg:text-6xl font-black tracking-tight mb-4">
+                    <span class="gradient-text">Frequently Asked Questions</span>
+                </h2>
+                <p class="text-xl text-gray-300">
+                    Everything you need to know about Upflex
+                </p>
+            </div>
+
+            <div class="space-y-6">
+                <!-- FAQ Item 1 -->
+                <details class="group bg-gray-700 rounded-lg overflow-hidden border border-gray-600 hover:border-cyan-400 transition-colors duration-300">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 font-bold text-lg text-white hover:text-cyan-400 transition-colors duration-300">
+                        What is AI automation and how can it help my business?
+                        <span class="transform group-open:rotate-180 transition-transform duration-300">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 14l-7 7m0 0l-7-7m7 7V3"></path>
+                            </svg>
+                        </span>
+                    </summary>
+                    <div class="px-6 pb-6 text-gray-300 leading-relaxed border-t border-gray-600">
+                        AI automation uses intelligent systems to handle repetitive tasks, customer interactions, and business processes 24/7. This saves time, reduces errors, and allows your team to focus on strategic growth. Our AI agents can qualify leads, answer customer questions, schedule appointments, and much more.
+                    </div>
+                </details>
+
+                <!-- FAQ Item 2 -->
+                <details class="group bg-gray-700 rounded-lg overflow-hidden border border-gray-600 hover:border-purple-400 transition-colors duration-300">
+                    <summary class="flex items-center justify-between cursor-pointer p-6 font-bold text-lg text-white hover:text-purple-400 transition-colors duration-300">
+                        How long does it take to see results?
+                        <span class="transform group-open:rotate-180 transition-transform duration-300">
+                            <svg class="w-6 h-6" fill="none" stroke="
